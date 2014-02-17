@@ -1,0 +1,9 @@
+int anim spin 0x7f030000
+int attr mode 0x7f010000
+int dimen activity_horizontal_margin 0x7f050000
+int drawable ic_launcher 0x7f020000
+int id animate 0x7f040000
+int id rotate 0x7f040001
+int style AppBaseTheme 0x7f060000
+int[] styleable Kprogress { 0x7f010000 }
+int styleable Kprogress_mode 0

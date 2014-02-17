@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Kprogress">
+        <attr name="mode" format="enum">
+            <enum name="animate" value="0" />
+            <enum name="rotate" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>
