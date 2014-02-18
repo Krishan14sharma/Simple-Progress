@@ -48,7 +48,7 @@ public class Kprogress extends ImageView {
 			rotation = AnimationUtils.loadAnimation(context, R.anim.spin);
 		}
 		
-		hide();  //default behavior not show in the beginning
+//		hide();  //default behavior not show in the beginning
 	}
 
 	public Kprogress(Context context) {
