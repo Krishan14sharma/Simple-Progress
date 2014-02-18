@@ -10,9 +10,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 /**
- *  Provide an animation drawable in src then simply show and hide.
- *  For animation drawable use anim mode and for rotation use rotate mode.
- * @author KRISHAN 
+ * Provide an animation drawable in src then simply show and hide. For animation
+ * drawable use anim mode and for rotation use rotate mode.
+ * 
+ * @author KRISHAN
  */
 public class Kprogress extends ImageView {
 	AnimationDrawable ani;
@@ -37,6 +38,8 @@ public class Kprogress extends ImageView {
 		} finally {
 			a.recycle();
 		}
+		if (isInEditMode()) 
+			return;
 		if (mode == ANIM) {
 			if (getDrawable() != null) {
 				ani = (AnimationDrawable) getDrawable();
@@ -44,7 +47,8 @@ public class Kprogress extends ImageView {
 		} else {
 			rotation = AnimationUtils.loadAnimation(context, R.anim.spin);
 		}
-
+		
+		hide();  //default behavior not show in the beginning
 	}
 
 	public Kprogress(Context context) {
@@ -80,4 +84,17 @@ public class Kprogress extends ImageView {
 		}
 	}
 
+	/**
+ * Shows easyprogress wheel 
+ */
+	public void show() {
+		setVisibility(View.VISIBLE);
+	}
+
+	/**
+	 *Hides easyprogress wheel 
+	 */
+	public void hide() {
+		setVisibility(View.GONE);
+	}
 }
