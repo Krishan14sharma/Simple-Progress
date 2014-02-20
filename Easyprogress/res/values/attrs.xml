@@ -8,4 +8,10 @@
         </attr>
     </declare-styleable>
 
+    <declare-styleable name="LoadingProgress">
+       <attr format="string" name="text"> </attr>
+    </declare-styleable>
+    
+    
+    
 </resources>

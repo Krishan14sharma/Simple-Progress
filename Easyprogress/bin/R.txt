@@ -1,5 +1,6 @@
 int anim spin 0x7f040000
 int attr mode 0x7f010000
+int attr text 0x7f010001
 int dimen activity_horizontal_margin 0x7f060000
 int drawable ic_launcher 0x7f020000
 int id animate 0x7f050000
@@ -10,3 +11,5 @@ int layout loadingprogress 0x7f030000
 int style AppBaseTheme 0x7f070000
 int[] styleable Kprogress { 0x7f010000 }
 int styleable Kprogress_mode 0
+int[] styleable LoadingProgress { 0x7f010001 }
+int styleable LoadingProgress_text 0
