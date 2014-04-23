@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <declare-styleable name="Kprogress">
-        <attr name="mode" format="enum">
-            <enum name="animate" value="0" />
-            <enum name="rotate" value="1" />
-        </attr>
-    </declare-styleable>
-
     <declare-styleable name="LoadingProgress">
-       <attr format="string" name="text"> </attr>
+       <attr format="string" name="loadingtext"> </attr>\
+       <attr format="integer" name="loadingresource"> </attr>
     </declare-styleable>
     
     
