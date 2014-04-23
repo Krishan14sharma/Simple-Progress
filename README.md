@@ -8,14 +8,6 @@ Custom Progress Dialog
  Hide and show the progress as required.
 
 
-USAGE
-=====
- <view.progress.LoadingProgress
-     android:id="@+id/loading"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_gravity="center"
-     android:orientation="horizontal" 
-     app1:loadingresource="@drawable/progress_drawable"
-     app1:loadingtext="loading.."
-     />
+
+
+ 
