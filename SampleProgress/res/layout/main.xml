@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res/com.example"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+     <view.progress.LoadingProgress
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" 
+        app1:loadingresource="@drawable/progress_drawable"
+        app1:loadingtext="Wait.."
+         
+        />
+    
+    <view.progress.LoadingProgress
+        android:id="@+id/loading1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app1:loadingresource="@drawable/loader"
+        app1:loadingtext="Loading..." 
+        />
+    
+
+</LinearLayout>
